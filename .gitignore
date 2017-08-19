@@ -56,3 +56,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Testing files
+*.p3d
+test.py
