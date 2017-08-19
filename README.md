@@ -7,7 +7,7 @@ Library for reading Arma's .p3d files in their unbinarized (MLOD) form.
 ## Installation
 
 ```bash
-# python3 setup.py install
+# pip3 install py3d
 ```
 
 
