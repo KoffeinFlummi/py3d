@@ -4,7 +4,7 @@
 
 Library for reading Arma's .p3d files in their unbinarized (MLOD) form.
 
-https://github.com/KoffeinFlummi/Chronyk
+https://github.com/KoffeinFlummi/py3d
 """
 
 
