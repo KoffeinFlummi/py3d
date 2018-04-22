@@ -58,15 +58,15 @@ class Vertex:
 
     @point.setter
     def point(self, value):
-        this.point_index = self.all_points.index(value)
+        self.point_index = self.all_points.index(value)
 
     @property
     def normal(self):
         return self.all_normals[self.normal_index]
 
-    @point.setter
+    @normal.setter
     def normal(self, value):
-        this.normal_index = self.all_normals.index(value)
+        self.normal_index = self.all_normals.index(value)
 
     def read(self, f):
         self.point_index = struct.unpack("<L", f.read(4))[0]
